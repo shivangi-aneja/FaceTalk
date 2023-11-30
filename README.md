@@ -1,6 +1,12 @@
 ## FaceTalk: Audio-Driven Motion Diffusion for Neural Parametric Head Models<br><sub>Official PyTorch implementation of the paper</sub>
 
 
+https://github.com/shivangi-aneja/FaceTalk/assets/37518691/84036f17-406d-444c-84e8-d6f10485bd9a
+
+
+
+
+
 **FaceTalk: Audio-Driven Motion Diffusion for Neural Parametric Head Models**<br>
 Shivangi Aneja, Justus Thies, Angela Dai, Matthias Niessner<br>
 https://shivangi-aneja.github.io/projects/facetalk <br>
