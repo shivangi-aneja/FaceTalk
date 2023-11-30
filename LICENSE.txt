@@ -1,0 +1,61 @@
+Copyright 2023 Sony Group Corporation.
+All rights reserved.
+
+TERMS AND CONDITIONS FOR USE, MODIFICATION, REPRODUCTION AND DISTRIBUTION
+
+1. Definitions.
+"License" means the terms and conditions for use, modification, reproduction and distribution as set forth under this document.
+
+"Licensor" means the copyright owner or entity authorized by the copyright owner that is granting this License.
+
+"Legal Entity" means the union of the acting entity and all other entities that control, are controlled by, or are under common control with that acting entity. For the purposes of this definition, "control" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.
+
+"You" (or "Your") means an individual or Legal Entity, except for Sony Group Corporation and all other entities that control, are controlled by, or are under common control with Sony Group Corporation, exercising permissions granted under this License.
+
+"Source" form means the preferred form for making modifications, including but not limited to human-readable software source code and configuration files.
+
+"Object" form means any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code and conversions to other media types.
+
+"Work" means the work of authorship, whether in Source or Object form, available under this License, as indicated by a copyright notice included in or attached to the work.
+
+"Derivative Works" mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, elaborations or other modifications represent, as a whole, an original work of authorship.
+
+"Contribution" means any work of authorship, including the original version of the Work and any modifications to, additions to or deletions of any part of that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in or application to the Work by the copyright owner or by an individual or Legal Entity authorized by the copyright owner. For the purposes of this definition, "submitted" means any form of electronic, verbal or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing services, source code control systems and issue tracking systems that are managed by, or on behalf of, the Licensor or its representatives, but excluding communication explicitly designated as "Not a Contribution” by the copyright owner.
+
+"Contributor" means (i) Licensor and (ii) any individual or Legal Entity on behalf of whom a Contribution has been made and subsequently incorporated within the Work.
+
+2. Grant of Copyright License.
+Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free and irrevocable copyright license to reproduce, make Derivative Works of, publicly display, publicly perform, sublicense and distribute the Work and such Derivative Works in Source or Object form.
+
+3. Responsibilities for Distribution
+3.1 Distribution of Object Form
+If You distribute the Work or Derivative Works in Object form, such Work or Derivative Works must also be available in Source form, as described in Section 3.2, and You must inform recipients of the Object form how they can obtain a copy of such Source form through a medium customarily used for software exchange, in a timely manner, at a charge no more than the cost of distribution to the recipient.
+
+3.2 Distribution of Source Form
+When distributing the Work or Derivative Works in Source form, including any modifications that You create or to which You contribute, You must inform recipients that the Source form of the Work or Derivative Works are governed by this License, and how they can obtain a copy of this License.
+
+3.3 Remote Network Interaction
+If Your version of the Work or Derivative Works support interaction remotely through a computer network, such version must also be available in Source form, as described in Section 3.1, and You must inform all interacting users how they can obtain a copy of such Source form through a medium customarily used for software exchange, in a timely manner, at a charge no more than the cost of distribution to the user.
+
+3.4 Notes
+In any case of Section 3.1/3.2/3.3, You must clearly document how Your version of the Work or Derivative Works differ from the Work provided by the copyright owner, including but not limited to documenting any modified or added features, executables or modules, and You must fulfill all of the following requirements:
+(a) You must allow the copyright owner to include your modifications to the Work;
+(b) You must ensure that installation of Your version of the Work or Derivative Works do not prevent the user from installing or running the Work provided by the copyright owner. In addition, Your version must bear a name that is different from the name of the Work provided by the copyright owner; and
+(c) You must allow anyone who receives a copy of Your version of the Work or Derivative Works to make the Source or Object form of Your version, with or without further modifications, available to others under this License.
+
+4. Commercial Use Limitation
+The Work and Derivative Works only may be used or intended for use non-commercially. Notwithstanding the foregoing, Sony Group Corporation, the original copyright owner, and affiliates authorized by Sony Group Corporation may use the Work and Derivative Works commercially. As used herein, “non-commercially” means research, education or evaluation purposes only.
+
+5. Military Use Limitation
+It is forbidden to use the Work and Derivative Works in any system that is designed or intended to physically hurt or kill a human being, or cooperates with such system, including any kind of reconnaissance. This applies to any form of law enforcement and military operations as well as any kind of activity in an organization that designs, builds or evaluates hardware or software systems for those purposes.
+
+6. Patent
+If You institute or threaten to institute patent litigation against any Licensor (including but not limited to a cross-claim or counterclaim in a lawsuit) alleging that the Work, Derivative Works or a Contribution incorporated within the Work or Derivative Works constitutes direct or contributory patent infringement, then all Your rights under this License (including the grant in Section 2) will terminate immediately.
+
+7. Disclaimer of Warranty
+Licensor provides the Work or Derivative Works (and each Contributor provides its Contributions) on an "AS IS" basis, without warranties or conditions of any kind, either express or implied, including, without limitation, any warranties or conditions of title, non-infringement, merchantability, or fitness for a particular purpose. You are solely responsible for determining the appropriateness of using or redistributing the Work or Derivative Works and assume any risks associated with Your exercise of permissions under this License.
+
+8. Limitation of Liability
+In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Licensor or Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work or Derivative Works (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Licensor or Contributor has been advised of the possibility of such damages.
+
+END OF TERMS AND CONDITIONS
