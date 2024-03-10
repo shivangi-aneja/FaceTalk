@@ -12,6 +12,17 @@ Abstract: *We introduce FaceTalk, a novel generative approach designed for synth
 
 <br>
 
+### <a id="section0">0. TODOS</a>
+- [ ] Add Source code
+- [ ] Add the link to the NPHM model
+- [ ] Add license files
+- [ ] Add the pretrained checkpoints
+- [ ] Provide the form for getting access to the dataset and Identity Latent Codes
+- [ ] Provide the link to missing Identity Latent Codes from the NPHM model
+- [ ] Provide script for generating fixed length segments (used in training)
+
+
+
 ### <a id="section1">1. Getting started</a>
 
 #### Pre-requisites
@@ -25,15 +36,6 @@ It is recommended to use `conda` for installing dependencies, please install it 
 ./environment.sh
 ```
 
-### <a id="section">TODOS</a>
-- [ ] Add Source code
-- [ ] Add the link to the NPHM model
-- [ ] Add license files
-- [ ] Add the pretrained checkpoints
-- [ ] Provide the form for getting access to the dataset and Identity Latent Codes
-- [ ] Provide the link to missing Identity Latent Codes from the NPHM model
-- [ ] Provide script for generating fixed length segments (used in training)
-
 
 
 ### <a id="section2">2. Pre-trained Models required for training FaceTalk</a>
@@ -44,11 +46,9 @@ Please download these models, as they will be required for experiments.
 | [NPHM](https://simongiebenhain.github.io/NPHM//) | We use NPHM neural 3DMM in our experiments. NPHM takes as input Identity and Expression blendshapes and predicts SDF, from which meshes are extracted using MarchingCubes. We used the **NPHM Backward Deformation model** for our experiments, different from the one released with original NPHM paper. Using any other version of NPHM model than used in this project might lead to wrong expression predictions. The model & required indices can be downloaded from [here](). The latent codes for the identities will be provided along with the dataset once the signed user agreement is validated. Extract and copy these into `ckpts/nphm_geometric/` in the project directory. NPHM related assets can be downloaded from [here](), copy these into `assets/nphm/` in the project directory. 
 | [Wave2Vec 2.0 (Pretrained)](https://arxiv.org/abs/2006.11477)                    | We used the Wave2Vec 2.0 as audio encoder, pretrained from Faceformer on VOCA dataset. This can be downloaded from [here](https://drive.google.com/file/d/1FMdc8PbEvQ5jkm_fJQird4ngPZWuvQ8S). Copy the model as `ckpts/voca_pretrained_audio_encoder.pt` in the project directory. This can be skipped if you don't want to train the model. 
 
+### <a id="section3">3. Dataset</a>
 
-### <a id="section3">3. Training</a>
-The code is well-documented and should be easy to follow.
-* **Source Code:**   `$ git clone` this repo and install the dependencies from `environment.yml`. The source code is implemented in PyTorch Lightning and Wandb for logging so familiarity with these is expected.
-* **Dataset:** To get access to the dataset and Identity Latent Codes, please fill out the user agreement form [here](). If you only need to run inference you can also do so with zero Identity code. If you have already filled the form, please wait for the confirmation email. Once the user agreement is validated, the dataset and Identity Latent Codes will be shared with you. We also provide FLAME tracking for comparing to Flame based baseline methods. The dataset should be placed in the `data/` directory. The dataset should be organized as follows:
+To get access to the dataset and Identity Latent Codes, please fill out the user agreement form [here](). If you only need to run inference you can also do so with zero Identity code. If you have already filled the form, please wait for the confirmation email. Once the user agreement is validated, the dataset and Identity Latent Codes will be shared with you. We also provide FLAME tracking for comparing to Flame based baseline methods. The dataset should be placed in the `data/` directory. The dataset should be organized as follows:
   ```
   data/
   ├── <IDName>_<SequenceName>/
@@ -65,6 +65,11 @@ The code is well-documented and should be easy to follow.
   │   │   │   ├── flame_meshes/
   │   │   │   │   ├── frame_<frame_num>.ply  
   ```
+
+
+### <a id="section4">4. Training</a>
+The code is well-documented and should be easy to follow.
+* **Source Code:**   `$ git clone` this repo and install the dependencies from `environment.yml`. The source code is implemented in PyTorch Lightning and Wandb for logging so familiarity with these is expected.
 * **Config:** All the config parameters are defined in `configs/nphm.yaml` file. The config files contains the paths to the dataset, results, and default hyperparameters used for training. Modify the paths to your dataset/asset paths, and the hyperparams (if needed).
 * **Training**: Run the corresponding scripts to train for NPHM sequence generation  . The scripts for training are available in `trainer/` directory. By default, we export the results after 10 epochs, with meshes rendered at resolution of 64 for faster training. If you want to export the results at higher resolution, change the `resolution` parameter in the script file. 
   - **NPHM Sequence:** To train, run the following command:
@@ -91,6 +96,8 @@ The code is well-documented and should be easy to follow.
   To render the results on different identities, change the variable `identity_idx` in the script file(s) to the desired identity.
 </br>
 
+### More
+Special thanks to authors of [NPHM](https://simongiebenhain.github.io/NPHM/) for proving their neural 3DMM and [NerSemble](https://tobias-kirschstein.github.io/nersemble/) for help with dataset construction. Finally, we would like to thank the authors of [Faceformer](https://evelynfan.github.io/audio2face/) for providing their pretrained model.  
 
 
 ### Citation
