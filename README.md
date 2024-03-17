@@ -105,13 +105,11 @@ Special thanks to authors of [NPHM](https://simongiebenhain.github.io/NPHM/) for
 If you find our dataset or paper useful for your research , please include the following citation:
 
 ```
-@misc{aneja2023facetalk,
-      title={FaceTalk: Audio-Driven Motion Diffusion for Neural Parametric Head Models}, 
+@inproceedings{aneja2023facetalk,
       author={Shivangi Aneja and Justus Thies and Angela Dai and Matthias Nießner},
-      year={2023},
-      eprint={2312.08459},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+      title={FaceTalk: Audio-Driven Motion Diffusion for Neural Parametric Head Models}, 
+      booktitle = {Proc. IEEE Conf. on Computer Vision and Pattern Recognition (CVPR)},
+      year={2024},
 }
 ```
 
